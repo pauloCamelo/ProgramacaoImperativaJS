@@ -1,6 +1,6 @@
 // Array
 
-let pessoa = ["Camelão", 18, 1,89, true];
+let pessoa = ["Camelão", 18, 1.89, true];
 console.log(pessoa);
 console.log(pessoa[0]);
 console.log(pessoa.length);
