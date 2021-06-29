@@ -2,7 +2,7 @@
 
 let pessoa = ["Camelão", 18, 1.89, true];
 console.log(pessoa);
-console.log(pessoa[0]);
+console.log(pessoa[0]); //imprime o primeiro elemento do Array Camelão
 console.log(pessoa.length);
 
 /**************************************
@@ -14,6 +14,7 @@ filmesFavoritos.push('Lord Of The Rings');
 console.log(filmesFavoritos);
 console.log(filmesFavoritos.length);
 
+/*.pop*/
 let ultimaPalavra = filmesFavoritos.pop()
 
 console.log(filmesFavoritos);
@@ -21,7 +22,7 @@ console.log(ultimaPalavra);
 
 /**************************************
 Shift(tira o primeiro elemento da Array)
-unshift () */
+unshift (adicionar um elemento no inicio do array, posição 0) */
 filmesFavoritos.shift();
 console.log(filmesFavoritos);
 console.log(filmesFavoritos.length);
@@ -31,6 +32,7 @@ console.log(filmesFavoritos);
 console.log(filmesFavoritos.length);
 
 /*localizar um elemento dentro do array*/
-
+/*.indexOf(vai localizar em qual posição está o elemento que procuramos ***ser não encontrar, volta -1**)*/
+/*.lastIndexOf retorna em qual posição, porém de trás para frente, ao contrário do .indexOf*/
 let cores = ["roxo", "branco", "preto", "cinza"];
-console.log(cores.indexOf('cinza','preto'));
+console.log(cores.indexOf('cinza'));
