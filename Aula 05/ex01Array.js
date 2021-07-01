@@ -36,3 +36,7 @@ console.log(filmesFavoritos.length);
 /*.lastIndexOf retorna em qual posição, porém de trás para frente, ao contrário do .indexOf*/
 let cores = ["roxo", "branco", "preto", "cinza"];
 console.log(cores.indexOf('cinza'));
+
+for (let loop = 0; loop < cores.length; loop++)
+    console.log(`${cores[loop]} ${loop}`);
+        console.log(`Essas são as posições das cores usando .length e loop com os dados de um array.`);
