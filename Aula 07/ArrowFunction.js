@@ -26,12 +26,15 @@ print("Olá, bom dia")
 let print = () => `Olá, bom dia`;
 console.log(print());
 
-/*
-function soma(n1, n2){
+/*2 - Simplifique usando ArrowFunction
+function soma2(n1, n2){
   return n1 + n2
 }
-console.log(soma(10, 10))
+console.log(soma2(10, 10))
 */
 
 let ex2 = (n1,n2) => n1 + n2;
     console.log(ex2(10,2869));
+
+let ex4 = ([n4,n5] = [10,50]) => n4 + n5;
+    console.log(ex4());

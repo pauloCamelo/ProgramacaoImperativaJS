@@ -16,10 +16,16 @@ let soma = (a,b) => a+b;
 let subtrair = (a,b) => a-b;
 let multiplicar = (a,b) => a*b; 
 let dividir = (a,b) => a/b;
+const tabuada = (a,b,operacao) => operacao(a,b);
 
-for (let a=0; a<=10; a++) {
+    for (let a=0; a<=10; a++) {
     for (let b=0; b<=10; b++) {
-    console.log(`${a}  + ${b} = ${soma(a,b)}`);
+        if(b==0){
+            console.log('Impossível dividir por zero(0)');
+        }
+        else {
+            console.log(tabuada(a,b,soma));
+        }
     }
 }
 
