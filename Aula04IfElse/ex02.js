@@ -5,7 +5,7 @@ var valorização = 10000
 
    let fazerGol = function() {
         golsJogador ++;
-        precoEmDolares = precoEmDolares + valorização;
+        precoEmDolares += valorização;
         console.log(`GOL!!!!!, Total de ${golsJogador} Gols e agora o jogar está valendo ${precoEmDolares} doláres`);
     }
     fazerGol();
@@ -15,6 +15,6 @@ var valorização = 10000
         fazerGol();
         fazerGol();
         precoEmDolares = (precoEmDolares * (0.1)) + precoEmDolares
-        console.log(precoEmDolares);
+        console.log(`Preço final do jogador é $${precoEmDolares}`);
     }
     hatTrick();

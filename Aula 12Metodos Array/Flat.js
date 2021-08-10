@@ -2,7 +2,7 @@
 // este método é feito para "desembrulhar" sub-arrays dentro de array,
 // ou seja, ele não modifica o array original
 
-let numeros = [1,2,3,4,5,6,7,-5,[-8,[80,250],-150]]
+let numeros = [1,2,3,4,5,6,7,-5,[-8],80,250,[[[[-150]]]]]
 console.log(numeros);
-novoArray = numeros.flat(5);
+novoArray = numeros.flat(2); //desembrulha 2 arrays -8 [[-150]]
 console.log(novoArray);

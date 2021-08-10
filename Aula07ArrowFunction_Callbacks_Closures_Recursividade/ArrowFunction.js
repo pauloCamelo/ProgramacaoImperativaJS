@@ -2,7 +2,7 @@
 para nomear precisamos atribuir a uma variável com a seta => */
 
 let soma = (a,b) => a+b;
-let dobro = a => a * 2; //não precisa de parenteses quando tem apenas 1 parametro//
+let dobro = a => a * 2; //não precisa de parenteses quando tem apenas 1 parâmetro//
 console.log(dobro(5));
 
 

@@ -1,0 +1,1 @@
+{"Fruta":"laranja","Preço":8.5,"Tipo":["Mexerica","Bergamota","Tangerina"], "Origem":"Brasil"} Estado: Goiás

@@ -19,7 +19,7 @@ let tenista2 = {
     sobreNome: 'Camelo',
     idade: 18,
     ativo: true,
-    //MÉTODO do OBJETO => funcao dentro do objeto
+    //MÉTODO do OBJETO => função dentro do objeto
     saudacao: function(){
         return `Olá, me chamo ${this.nome} ${this.sobreNome} e tenho ${this.idade} anos de idade.`
     }
@@ -34,8 +34,8 @@ this.marca = propriedades */
     this.marca = marca;
     this.modelo = modelo;
 } */
-//funcoes contrutoras nos permite criar parametro para cada propriedade que queremos atribuir ao objeto.
-//Nome do contrutor, normalmente inicia com letra maiúscula, para diferenciar das funcoes normais.
+//funcoes contrutoras nos permite criar parâmetro para cada propriedade que queremos atribuir ao objeto.
+//Nome do contrutor, normalmente inicia com letra maiúscula, para diferenciar das funções normais.
 function Carro(marca, modelo){
     this.marca = marca;
     this.modelo = modelo;
@@ -55,3 +55,16 @@ let restaurante = {
     }
 };
 console.log(restaurante.entrada());
+
+
+function ObjetoLiteral (texto, numero, array, booleano) {
+    this.texto = texto;  
+    this.numero = numero;
+    this.array = array;
+    this.booleano = booleano;
+    this.funcao = () => {return `Se fuder com ObjetoLiteral ${this.texto}, ${this.numero++}, ${this.array}, ${this.booleano}`}
+};
+
+let paulo = new ObjetoLiteral('Paulo', 12, [1.8, 1.6], true);
+
+console.log(paulo.funcao());

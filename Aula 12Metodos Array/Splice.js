@@ -5,6 +5,6 @@
 const frutas = ['Banana', 'Laranja','Limão','Maçã','Manga','Uva'];
 console.log(frutas);
 
-frutas.splice(2,0,'Mamão','Kiwi');
+frutas.splice(2,2,'Mamão','Kiwi');
 
 console.log(`Lista com adição.....: ${frutas}`);
